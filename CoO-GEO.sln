@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoO-GEO", "CoO-GEO.csproj", "{CF1BE643-6F3D-462A-A6EF-37CC29085DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{57C91C1C-C8D9-4C36-8FD1-E3E3474D3DAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF1BE643-6F3D-462A-A6EF-37CC29085DAC} = {CF1BE643-6F3D-462A-A6EF-37CC29085DAC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1BE643-6F3D-462A-A6EF-37CC29085DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1BE643-6F3D-462A-A6EF-37CC29085DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1BE643-6F3D-462A-A6EF-37CC29085DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1BE643-6F3D-462A-A6EF-37CC29085DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C91C1C-C8D9-4C36-8FD1-E3E3474D3DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C91C1C-C8D9-4C36-8FD1-E3E3474D3DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C91C1C-C8D9-4C36-8FD1-E3E3474D3DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C91C1C-C8D9-4C36-8FD1-E3E3474D3DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {298CC85A-C7B3-4B6D-BE87-A47ECA270D72}
+	EndGlobalSection
+EndGlobal
