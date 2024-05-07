@@ -19,7 +19,7 @@ namespace CoO_GEO
                 throw new System.Exception("Wrong file. Input a geo file from Children of Orc.");
 
             br.ReadInt32();//Unknown
-            int faceCount = br.ReadInt32();//Unknown
+            int faceCount = br.ReadInt32();
 
             GEO geo = new();
             while (br.BaseStream.Position < br.BaseStream.Length)
